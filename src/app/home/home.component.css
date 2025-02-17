@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #000000; /* Example color code */
+}
+
 .results {
   display: grid;
   column-gap: 14px;
@@ -7,7 +11,7 @@
   justify-content: space-around;
 }
 input[type="text"] {
-  border: solid 1px var(--primary-color);
+  border: solid 1px #8A2BE2;
   padding: 10px;
   border-radius: 8px;
   margin-right: 4px;
@@ -16,8 +20,8 @@ input[type="text"] {
 }
 button {
   padding: 10px;
-  border: solid 1px var(--primary-color);
-  background: var(--primary-color);
+  border: solid 1px #8A2BE2;
+  background: #8A2BE2;
   color: white;
   border-radius: 8px;
 }
